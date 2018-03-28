@@ -1,12 +1,3 @@
-const $ = require('jquery');
-const Person = require('./modules/Person');
+import MobileMenu from './modules/MobileMenu';
 
-alert('test webpack 123!!!!!!!!!!!');
-
-const john = new Person('John', 'Blue');
-const jane = new Person('Jane', 'Red');
-
-john.greet();
-jane.greet();
-
-$('h1').remove();
+const mobileMenu = new MobileMenu();
