@@ -44,6 +44,8 @@ class StickyHeader {
             );
             that.headerLinks.removeClass('is-current-link');
             $(matchingHeaderLink).addClass('is-current-link');
+          } else {
+            that.headerLinks.removeClass('is-current-link');
           }
         },
         offset: '18%'
